@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Estilos de Letras -->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    </style>
+    <!-- Link de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Actividad 3</title>
+</head>
+
+<body>
+    
+    <header class="container-lg">
+        
+
+        <!-- Navbar -->
+        
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                
+                <!-- Logo del menú izquierdo -->
+                <a href="#" class="navbar-brand">
+                    <img id="navbarLogo" class="logo" src="/images/WhatsApp Image 2024-10-19 at 10.37.23 AM.jpeg" alt="Logo">
+                </a>
+    
+                <!-- Items del menú central -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CLASSES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MEMBERSHIPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRIVATE EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MORE</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Iconos del menu derecho -->
+                <div class="align-items-center icon-container">
+                    <button id="botonmodo" class="btn btn-secondary rounded-pill botonmodo">Modo Oscuro</button>
+                    <a href="#" class="nav-link">
+                        <img src="/icons/icons8-búsqueda-50.png" alt="Búsqueda" class="icon">
+                    </a>
+                    <a href="#" class="nav-link">
+                        <img src="/icons/icons8-persona-de-sexo-masculino-64.png" alt="Usuario" class="icon">
+                    </a>
+                    <a href="#" class="nav-link">
+                        <img src="/icons/carrito-de-compras.png" alt="Carrito" class="icon">
+                    </a>
+                </div>
+    
+                <!-- Botón de colapso de Bootstrap -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- Main -->
+     
+    <main>
+    
+        <!-- Hero -->
+
+        <section class="hero container-fluid d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row justify-content-left text-left">
+                    <div class="col-md-6 col-lg-4">
+                        <h1 class="hero-title">A pottery studio dedicated to creativity and community.</h1>
+                        <button class="btn btn-dark mt-4 rounded-pill">TAKE A CLASS</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Learn-more -->
+
+        <section class="learn-more container mt-5 mb-4">
+            <div class="row text-center justify-content-center" >
+                <p class="col-md-8 col-lg-6">Sarah Glass Ceramics is a woman-owned pottery studio based in Fort Lauderdale, Florida. We offer pottery classes for beginners and experienced artists alike, providing a supportive and creative environment to explore the art of pottery making. Our studio space offers equipment and expert guidance to help you channel your inner artist.</p>
+                <a href="#" class="link-underline-light">LEARN MORE</a>
+            </div>
+        </section>
+
+
+        <section>
+            <div id="carruselimagenes" class="carrusel"> 
+                <img src="/images/images6.jpg" alt="Imagen 1" class="carrusel-imagen active">
+                <img src="/images/images7.jpg" alt="Imagen 2" class="carrusel-imagen">
+                <img src="/images/images8.jpg" alt="Imagen 3" class="carrusel-imagen">
+                <button id="antesboton">◀️</button>
+                <button id="despuesboton">▶️</button>
+            </div>
+            
+        </section>
+
+
+        <!-- Galeria de Imagenes 1-->
+
+        <section class="galeriaimagenes1 container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center mb-3 mb-md-0">
+                    <img class="img-gallery1 img-fluid" src="/images/Imagen1.jpg" alt="Imagen1">
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+                    <img class="img-gallery1 img-fluid" src="/images/Imagen2.jpg" alt="Imagen2">
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Galeria de Imagenes 2-->
+
+        <section class="galeriaimagenes">
+            <div class="container mt-5">
+                <div>
+                    <h5 class="text-center gallery-title">Featured Classes, Courses & Workshops</h5>
+                    <p class="text-center mt-4 mb-4 text-card">Whether you're looking to learn wheel-throwing, hand-building, or just unwind through clay, we have a class for you.</p>
+                </div>
+        
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <img class="img-gallery img-fluid mb-4" src="/images/images3.jpg" alt="imagen3">
+                        <p class="text-center fs-10 text-card">October One-Time Pottery Wheel Class</p>
+                        <p class="price text-center fs-10 fw-bold">95,00 US$</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <img class="img-gallery img-fluid mb-4" src="/images/images4.jpg" alt="imagen4">
+                        <p class="text-center fs-10 text-card">Rooftop Movie Night & Pinch Pots: Hocus Pocus - Oct 25th</p>
+                        <p class="price text-center fs-10 fw-bold">65,00 US$</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <img class="img-gallery img-fluid mb-4" src="/images/Images5.jpg" alt="imagen5">
+                        <p class="text-center fs-10 text-card">Ghost Tea Light Hand Building Workshop - Oct 31st</p>
+                        <p class="price text-center fs-10 fw-bold">95,00 US$</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <img class="img-gallery img-fluid mb-4" src="/images/Images6.jpg" alt="imagen6">
+                        <p class="text-center fs-10 text-card">Six-Week Beginner Pottery Course</p>
+                        <p class="price text-center fs-10 fw-bold">495,00 US$</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <img class="img-gallery img-fluid mb-4" src="/images/Images7.jpg" alt="imagen7">
+                        <p class="text-center fs-10 text-card">Six-Week Returning Pottery Course (Intermediate/Advanced)</p>
+                        <p class="price text-center fs-10 fw-bold">495,00 US$</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <img class="img-gallery img-fluid mb-4" src="/images/Images8.jpg" alt="imagen8">
+                        <p class="text-center fs-10 text-card">Candle Making Workshop - Nov 7th</p>
+                        <p class="price text-center fs-10 fw-bold">50,00 US$</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Formulario -->
+
+        <section class="form">
+            <div class="container mt-4">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6 col-md-6">
+                        <p class="hazPregunta">ASK A QUESTION</p>
+                        <p class="hazPreguntaP mb-4">Please <strong>feel free</strong> to ask<br>any questions you may have<br><strong>using this form.</strong></p>
+                        <input id="emailImput" class="form-control rounded-pill mt-3 border-3 border-dark" type="email" placeholder="Your email">
+                        <textarea class="form-control rounded mt-2 rounded-pill border-3 border-dark" name="" id="" placeholder="Your questions"></textarea>
+                        <button class="btn btn-dark mt-4 rounded-pill px-4 mb-5">SEND</button>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <nav class="row align-items-center text-center text-md-start">
+                
+                <!-- Logo extremo izquierdo de footer -->
+                <div class="col-md-3 col-12 mb-3">
+                    <a href="#" class="navbar-brand d-block mx-auto mx-md-0">
+                        <img class="logo" src="/images/logodark-removebg-preview.png" alt="Logo">
+                    </a>
+                </div>
+                
+                <!-- Items centrales del footer -->
+                <div class="col-md-6 col-12 mb-3">
+                    <ul class="navbar-nav flex-row flex-wrap justify-content-center justify-content-md-center">
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">CLASSES</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">MEMBERSHIPS</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">PRIVATE EVENTS</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">MORE</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Iconos derechos del footes -->
+                <div class="col-md-3 col-12 mb-3 d-flex justify-content-center justify-content-md-end">
+                    <a href="#" class="text-white me-3">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-white me-3">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
